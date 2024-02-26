@@ -57,21 +57,21 @@ python manage.py runserver
 ### Примеры запросов к API:
 
 Получить список постов:
-
+GET
 ```
-GET http://127.0.0.1:8000/api/v1/posts/
+http://127.0.0.1:8000/api/v1/posts/
 ```
 
 Получить комментарии к посту:
-
+GET
 ```
-GET http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
+http://127.0.0.1:8000/api/v1/posts/{post_id}/comments/
 ```
 
 Получить список сообществ:
-
+GET
 ```
-GET http://127.0.0.1:8000/api/v1/groups/
+http://127.0.0.1:8000/api/v1/groups/
 ```
 
 ### Полная документация по запросам:
